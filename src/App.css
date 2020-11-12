@@ -1,0 +1,38 @@
+.App{
+    background-image: url('/src/background_1.png');
+    background-repeat: no-repeat ;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    backgroundColor: rgba(255, 0, 0, 0.8);
+    position: absolute;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.title{
+    color: yellow;
+    font-size: xx-large;
+}
+
+.ul1, .ul2 {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    float: right;
+    overflow: auto;
+}
+li {
+    padding: 10px;
+}
+
+.Form{
+    position: fixed;
+    margin: 0 auto;
+    left: 15%;
+    right: 0;
+    top: 40%;
+    width: 50%;
+}
